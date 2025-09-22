@@ -34,3 +34,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 추가한 패키지
+
+```
+npm install --save-dev prettier prettier-plugin-tailwindcss eslint-config-prettier
+```
+
+## 수정한 파일
+
+### eslint
+
+- eslint.config.mjs: prettier 설정 추가
+
+### prettier
+
+- .prettierignore 생성
+- .prettierrc.json 생성
