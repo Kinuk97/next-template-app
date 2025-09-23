@@ -37,8 +37,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## 추가한 패키지
 
-```
+```bash
+# prettier
 npm install --save-dev prettier prettier-plugin-tailwindcss eslint-config-prettier
+
+# husky, lint-staged, commitlint
+npm i -D husky lint-staged @commitlint/cli @commitlint/config-conventional
+
+# husky init
+npx husky init
+
+
+
 ```
 
 ## 수정한 파일
@@ -51,3 +61,7 @@ npm install --save-dev prettier prettier-plugin-tailwindcss eslint-config-pretti
 
 - .prettierignore 생성
 - .prettierrc.json 생성
+
+### .editorconfig 생성
+
+### .vsocde 설정 추가
