@@ -15,3 +15,8 @@ npm install -D prettier-plugin-tailwindcss
 npm i -D eslint-config-prettier
 
 ```
+
+### 사용법
+```shell
+npx create-next-app --example https://github.com/Kinuk97/next-template-app
+```
