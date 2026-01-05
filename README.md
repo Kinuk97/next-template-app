@@ -1,5 +1,7 @@
 # 기본 탬플릿
 
+### 설정한 내용
+
 1. .editorconfig 추가
 
 2. prettier 설정 추가
